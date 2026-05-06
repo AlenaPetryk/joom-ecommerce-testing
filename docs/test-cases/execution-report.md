@@ -57,7 +57,7 @@
 | **20** | **Pos** | Verify burger menu tap area dimensions on mobile | DevTools: iPhone SE | **Major** | Tap area is at least 44x44px | ✅ PASSED |
 | **21** | **Pos** | Check content alignment within mobile safe areas | DevTools: iPhone SE | **Major** | No overlap with notch/bottom bar | ✅ PASSED |
 | **22** | **Neg** | Verify sticky behavior of the header on scroll | Long page loaded | **Low** | Header stays fixed on scroll | ❌ FAILED |
-| **23** | **Neg** | Check for cumulative layout shift during page load | DevTools: iPhone SE | **Medium** | Elements don't "jump" on load | ❌ FAILED |
+| **23** | **Neg** | Check for layout shift during page load | DevTools: iPhone SE | **Medium** | Elements don't "jump" on load | ❌ FAILED |
 
 ### 6. Promo Codes & Coupons
 
