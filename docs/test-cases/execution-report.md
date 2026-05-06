@@ -9,9 +9,9 @@
 ### 1. Registration & Auth
 
 
-| ID | Type | Summary | Pre-conditions | Severity | Expected Result | Status |
+| ID | Type | Summary | Pre-conditions | Severity | Expected Result | Status | Bug ID |
 |:---|:---:|:---|:---|:---:|:---|:---:|
-| **01** | **Pos** | Verify account registration with a valid email | Email not registered | **Critical** | Account created; confirmation shown | ✅ PASSED |
+| **01** | **Pos** | Verify account registration with a valid email | Email not registered | **Critical** | Account created; confirmation shown | ✅ PASSED | **BUg-01** |
 | **02** | **Neg** | Validate system response to invalid email format | Reg form opened | **Major** | Error: "Enter a valid email" | ✅ PASSED |
 | **03** | **Neg** | Check mandatory email field validation | Password is filled | **Major** | Error: "Email is required" | ✅ PASSED |
 | **04** | **Neg** | Validate password requirements (letters only) | Valid email entered | **Medium** | Error: "Password must contain letters" | ✅ PASSED |
