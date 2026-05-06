@@ -67,8 +67,8 @@ This registry contains all defects identified during testing. Each report includ
 *   **Priority:** Medium
 *   **Pre-conditions:** "Price range" filter is open
 *   **Steps to reproduce:**
-1. Enter "9.99" in the "Min" field
-2. Enter "10000.01" in the "Max" field
+1. Enter "9.99" in the "Min" field (**BVA**)
+2. Enter "10000.01" in the "Max" field (**BVA**)
 3. Apply the filter
 *   **Actual Result:** Filter is applied with incorrect values
 *   **Expected Result:** System automatically rounds/corrects values to allowed limits (10.00 and 10000.00)
@@ -82,7 +82,7 @@ This registry contains all defects identified during testing. Each report includ
 *   **Priority:** Low
 *   **Pre-conditions:** Catalog is open; price filter is available
 *   **Steps to reproduce:**
-1. Set minimum price to 0 and maximum to 1
+1. Set minimum price to 0 and maximum to 1 (**EP**)
 2. Click "Apply"
 *   **Actual Result:** Filter is accepted, showing "0 products"
 *   **Expected Result:** A notification "Minimum price is 10 ₽" appears
