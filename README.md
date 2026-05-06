@@ -14,7 +14,7 @@ I have organized the testing artifacts into a clear structure:
 
 1.  **[Test Execution Report](docs/test-cases/execution-report.md)**: A master list of **33 test cases** covering the entire user journey—from Email Registration and Social OAuth to Checkout and Payment processing.
 2.  **[Bug Reports Registry](docs/bug-reports/bug-registry.md)**: Detailed reports for 8 identified defects, including reproduction steps, severity, and visual proofs.
-3.  **[Test Design Analysis](docs/test-design/analysis-summary.md)**: Application of **Equivalence Partitioning (EP)**, **Boundary Value Analysis (BVA)**, **Decision table**, and **State transition Testing**.
+3.  **[Test Design Analysis](docs/test-design/analysis-summary.md)**: Application of **Equivalence Partitioning (EP)**, **Boundary Value Analysis (BVA)**, **Decision table**, and **State Transition Testing**.
 
 ## 📈 Key Testing Highlights
 *   **Full User Journey:** Tested registration via email (including email confirmation checks) and social media login, profile management, search and filters moduls, shoping cart, payment, and checkout moduls using State Transition Testing.
