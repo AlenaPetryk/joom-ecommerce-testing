@@ -63,8 +63,8 @@
 ### 6. Promo Codes & Coupons
 
 
-| ID | Type | Summary | Pre-conditions | Severity | Expected Result | Status |
-|:---|:---:|:---|:---|:---:|:---|:---:|
+| ID | Type | Summary | Pre-conditions | Severity | Expected Result | Status | **Bug-ID** |
+|:---|:---:|:---|:---|:---:|:---|:---:|:---:|
 | **25** | **Pos** | Verify discount application for first order promo | First purchase | **Major** | 10% discount is applied | ✅ PASSED |
 | **26** | **Pos** | Verify brand-specific promo for multiple items | 2+ Uniqlo in cart | **Major** | 40% discount applied to Uniqlo | ✅ PASSED |
 | **27** | **Neg** | Check promo code hint for insufficient item quantity | 1 Uniqlo in cart | **Medium** | Hint: "Add 1 more for discount" | ✅ PASSED |
@@ -76,7 +76,7 @@
 ### 7. Checkout & Final Order
 
 
-| ID | Type | Summary | Pre-conditions | Severity | Expected Result | Status |
-|:---|:---:|:---|:---|:---:|:---|:---:|
+| ID | Type | Summary | Pre-conditions | Severity | Expected Result | Status | **Bug-ID** |
+|:---|:---:|:---|:---|:---:|:---|:---:|:---:|
 | **32** | **Pos** | Verify successful checkout and order placement | Valid payment; items | **Critical** | Order placed; email sent | ✅ PASSED |
 | **33** | **Neg** | Check transaction rejection for expired credit card | Checkout page opened | **Critical** | Error shown; status: "Awaiting" | ✅ PASSED |
