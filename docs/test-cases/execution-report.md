@@ -18,7 +18,7 @@
 | **05** | **Neg** | Check mandatory password field validation | Email is filled | **Major** | Error: "Password is required" | ✅ PASSED |
 | **06** | **Pos** | Verify confirmation email delivery after signup | Form submitted | **Critical** | Confirmation email received | ✅ PASSED |
 | **07** | **Pos** | Verify user authorization via VK Social OAuth | Valid VK account | **Major** | Successful login & data sync | ✅ PASSED |
-| **08** | **Neg** | Check phone prefix update during Belarus selection | Country selector active | **Major** | Phone prefix updates to `+375` | ❌ FAILED | **Bug-01**
+| **08** | **Neg** | Check phone prefix update during Belarus selection | Country selector active | **Major** | Phone prefix updates to `+375` | ❌ FAILED | **Bug-02**|
 
 ### 2. Profile Management
 
@@ -26,7 +26,7 @@
 | ID | Type | Summary | Pre-conditions | Severity | Expected Result | Status |
 |:---|:---:|:---|:---|:---:|:---|:---:|
 | **09** | **Pos** | Verify successful update of About Me section | User is logged in | **Medium** | Data is saved and displayed | ✅ PASSED |
-| **10** | **Neg** | Validate character limit for About Me input field | Profile edit mode | **Medium** | System shows char limit warning | ❌ FAILED | **Bug-02**
+| **10** | **Neg** | Validate character limit for About Me input field | Profile edit mode | **Medium** | System shows char limit warning | ❌ FAILED | **Bug-03**|
 
 ### 3. Search & Filters
 
@@ -35,8 +35,8 @@
 |:---|:---:|:---|:---|:---:|:---|:---:|
 | **11** | **Pos** | Verify search results for full product name match | Main page loaded | **Major** | Product displayed as 1st result | ✅ PASSED |
 | **12** | **Pos** | Check search suggestions visibility and relevance | Input field active | **Medium** | Dropdown shows hints (3+ chars) | ✅ PASSED |
-| **13** | **Neg** | Validate system behavior for empty search query | Input contains spaces | **Low** | System shows "Enter keyword" hint | ❌ FAILED | **Bug-03**
-| **14** | **Neg** | Verify category filter functionality on iPhone SE | DevTools: iPhone SE | **Critical** | API returns correctly filtered data | ❌ FAILED | **Bug-04**
+| **13** | **Neg** | Validate system behavior for empty search query | Input contains spaces | **Low** | System shows "Enter keyword" hint | ❌ FAILED | **Bug-04**|
+| **14** | **Neg** | Verify category filter functionality on iPhone SE | DevTools: iPhone SE | **Critical** | API returns correctly filtered data | ❌ FAILED | **Bug-05**|
 
 ### 4. Price & Catalog Logic (BVA/EP)
 
@@ -45,7 +45,7 @@
 |:---|:---:|:---|:---|:---:|:---|:---:|
 | **15** | **Pos** | Verify items filtering within valid price range (10.00/10000.00) | Catalog page opened | **Major** | Only items within range displayed | ✅ PASSED |
 | **16** | **Neg** | Check price boundary validation for not valid values (9.99/10000.01) | Price inputs active | **Major** | System rejects values outside limits | ❌ FAILED | **Bug-05**
-| **17** | **Neg** | Check system response to 0 input | Price inputs active | **Medium** | Error: "Min price is 10.00" | ❌ FAILED | **Bug-06**
+| **17** | **Neg** | Check system response to 0 input | Price inputs active | **Medium** | Error: "Min price is 10.00" | ❌ FAILED | **Bug-06**|
 | **18** | Neg | Validate system response to special characters in price | Price inputs active | Low | Input is ignored or blocked | ✅ PASSED |
 
 ### 5. Shopping Cart & Payment
@@ -57,8 +57,8 @@
 | **20** | **Pos** | Check hover state smooth transition on Login button | Desktop env. | **Low** | Smooth color transition (0.3s) | ✅ PASSED |
 | **21** | **Pos** | Verify burger menu tap area dimensions on mobile | DevTools: iPhone SE | **Major** | Tap area is at least 44x44px | ✅ PASSED |
 | **22** | **Pos** | Check content alignment within mobile safe areas | DevTools: iPhone SE | **Major** | No overlap with notch/bottom bar | ✅ PASSED |
-| **23** | **Neg** | Verify sticky behavior of the header on scroll | Long page loaded | **Low** | Header stays fixed on scroll | ❌ FAILED | **Bug-07**
-| **24** | **Neg** | Check for layout shift during page load | DevTools: iPhone SE | **Medium** | Elements don't "jump" on load | ❌ FAILED | **Bug-08**
+| **23** | **Neg** | Verify sticky behavior of the header on scroll | Long page loaded | **Low** | Header stays fixed on scroll | ❌ FAILED | **Bug-07**|
+| **24** | **Neg** | Check for layout shift during page load | DevTools: iPhone SE | **Medium** | Elements don't "jump" on load | ❌ FAILED | **Bug-08**|
 
 ### 6. Promo Codes & Coupons
 
