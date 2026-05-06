@@ -38,7 +38,7 @@ This document describes the test design logic applied to optimize test coverage 
 **Tests:** #25, #26, #27, #28
 
 
-| Conditions | TC-24 | TC-25 | TC-26 | TC-27 |
+| Conditions | TC-25 | TC-26 | TC-27 | TC-28 |
 | :--- | :---: | :---: | :---: | :---: |
 | First Order | Yes | No | No | No |
 | Brand "Uniqlo" | - | Yes | Yes | - |
