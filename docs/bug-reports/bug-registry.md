@@ -25,10 +25,10 @@ This registry contains all defects identified during testing. Each report includ
 *   **Priority:** Medium
 *   **Pre-conditions:** User is authorized; Profile Edit screen is open
 *   **Steps to reproduce:**
-    1. Paste text with a length of 2005 characters into the "About Me" field
+    1. Paste text with a length of 2000 characters into the "About Me" field
     2. Click the "Save" button
 *   **Actual Result:** Text is saved (truncated by the system); no error notification is displayed
-*   **Expected Result:** A "Maximum 2000 characters" message is displayed, and the Save button is disabled
+*   **Expected Result:** A "Maximum characters" message is displayed, and the Save button is disabled
 *   **Visual Proof:** [📸 View Screenshot](../../assets/screenshots/explorer_LSbmpjSZNq.png)
 
 ---
