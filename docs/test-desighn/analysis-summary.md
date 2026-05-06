@@ -48,9 +48,11 @@ This document describes the test design logic applied to optimize test coverage 
 
 ---
 
-## 4. State Transition: Order Lifecycle
+## 4. State Transition Testing: Order Lifecycle
 **Module:** Checkout & Order Management  
 **Tests:** #32, #33
+
+Verified status flow integrity from cart creation to final delivery using a State Transition Table.
 
 ```mermaid
 graph TD
