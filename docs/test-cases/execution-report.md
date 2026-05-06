@@ -66,7 +66,7 @@
 |:---|:---:|:---|:---|:---:|:---|:---:|
 | **24** | **Pos** | Verify discount application for first order promo | First purchase | **Major** | 10% discount is applied | ✅ PASSED |
 | **25** | **Pos** | Verify brand-specific promo for multiple items | 2+ Uniqlo in cart | **Major** | 40% discount applied to Uniqlo | ✅ PASSED |
-| **26** | **Neg** | Check promo code hint for insufficient item quantity | 1 Uniqlo in cart | **Medium** | Hint: "Add 1 more for discount" | ❌ FAILED |
+| **26** | **Neg** | Check promo code hint for insufficient item quantity | 1 Uniqlo in cart | **Medium** | Hint: "Add 1 more for discount" | ✅ PASSED |
 | **27** | **Pos** | Verify discount for Sport category items | Sport items in cart | **Major** | 11% discount is applied | ✅ PASSED |
 | **28** | **Neg** | Validate coupon stacking and priority logic | One coupon applied | **Medium** | System allows only one best coupon | ✅ PASSED |
 | **29** | **Neg** | Check system trim for spaces in promo code field | Code with spaces | **Low** | Spaces trimmed and code applied | ✅ PASSED |
