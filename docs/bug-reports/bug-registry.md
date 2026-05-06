@@ -4,7 +4,7 @@ This registry contains all defects identified during testing. Each report includ
 
 ---
 
-### BUG-02: Phone prefix not updating for Belarus
+### BUG-01: Phone prefix not updating for Belarus
 *   **ID:** BUG-01
 *   **Summary:** Phone prefix does not update in the input field when "Belarus" is selected in the Country Selector
 *   **Priority:** High
@@ -19,7 +19,7 @@ This registry contains all defects identified during testing. Each report includ
 
 ---
 
-### BUG-04: Missing char limit warning in Profile Bio
+### BUG-02: Missing char limit warning in Profile Bio
 *   **ID:** BUG-02
 *   **Summary:** Absence of a warning message when exceeding the 2000-character limit in the "About Me" field
 *   **Priority:** Medium
@@ -33,7 +33,7 @@ This registry contains all defects identified during testing. Each report includ
 
 ---
 
-### BUG-07: Empty search query validation failure
+### BUG-03: Empty search query validation failure
 *   **ID:** BUG-03
 *   **Summary:** Lack of validation and hints for search queries consisting only of spaces
 *   **Priority:** Low
@@ -47,7 +47,7 @@ This registry contains all defects identified during testing. Each report includ
 
 ---
 
-### BUG-08: Category filter API error (iPhone SE)
+### BUG-04: Category filter API error (iPhone SE)
 *   **ID:** BUG-04
 *   **Summary:** 400 Bad Request error when applying category filters in mobile emulation
 *   **Priority:** High
@@ -61,7 +61,7 @@ This registry contains all defects identified during testing. Each report includ
 
 ---
 
-### BUG-10: Boundary price values bypass
+### BUG-5: Boundary price values bypass
 *   **ID:** BUG-5
 *   **Summary:** Ability to enter price values outside business-defined boundaries (9.99 and 10000.01)
 *   **Priority:** Medium
@@ -76,7 +76,7 @@ This registry contains all defects identified during testing. Each report includ
 
 ---
 
-### BUG-11: Invalid ultra-low price range (0-1 ₽)
+### BUG-6: Invalid ultra-low price range (0-1 ₽)
 *   **ID:** BUG-6
 *   **Summary:** System allows setting a price range from 0 to 1 Ruble without a warning
 *   **Priority:** Low
@@ -90,7 +90,7 @@ This registry contains all defects identified during testing. Each report includ
 
 ---
 
-### BUG-16: Non-sticky Header on scroll (Desktop)
+### BUG-7: Non-sticky Header on scroll (Desktop)
 *   **ID:** BUG-7
 *   **Summary:** Site header is not fixed when scrolling down the page
 *   **Priority:** Medium
@@ -103,7 +103,7 @@ This registry contains all defects identified during testing. Each report includ
 
 ---
 
-### BUG-17: Visual Layout Shift on load (iPhone SE)
+### BUG-8: Visual Layout Shift on load (iPhone SE)
 *   **ID:** BUG-8
 *   **Summary:** Significant UI element shift during banner loading in the mobile version
 *   **Priority:** Medium
