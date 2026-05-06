@@ -17,7 +17,7 @@ I have organized the testing artifacts into a clear structure:
 3.  **[Test Design Analysis](docs/test-design/analysis-summary.md)**: Application of **Equivalence Partitioning (EP)**, **Boundary Value Analysis (BVA)**, **Decision table**, and **State transition Testing** **** 
 
 ## 📈 Key Testing Highlights
-*   **Full User Journey:** Tested registration via email (including email confirmation checks) and social media login, profile management, search and filters moduls, shoping cart, payment, and checkout moduls using State Transition Testing
+*   **Full User Journey:** Tested registration via email (including email confirmation checks) and social media login, profile management, search and filters moduls, shoping cart, payment, and checkout moduls using State Transition Testing.
 *   **Complex Logic:** Verified a multi-condition coupon system using Decision Tables to ensure correct discount application.
 *   **Mobile Emulation:** Identified UI/UX issues (Layout Shifts, Tap Area violations) specifically on small-screen devices (iPhone SE) using Chrome DevTools.
 *   **Boundary Testing:** Discovered boundary bypass bugs in price filters through rigorous BVA analysis.
@@ -33,5 +33,3 @@ I have organized the testing artifacts into a clear structure:
 └── README.md            # Project overview
 ```
 
----
-*This project demonstrates my ability to handle end-to-end testing, document results professionally, and use technical tools to identify deep-level system defects.*
