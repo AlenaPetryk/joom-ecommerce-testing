@@ -1,4 +1,4 @@
-# QA Portfolio: E-commerce Testing Project (Joom-like Web App)
+# QA Portfolio: E-commerce Testing Project (Joom Web App)
 
 ## 📌 Project Overview
 This repository contains a comprehensive testing project for an e-commerce platform. The goal was to perform functional, UI/UX, and business logic testing using professional QA methodologies and tools.
