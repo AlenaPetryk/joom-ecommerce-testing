@@ -43,9 +43,9 @@
 
 | ID | Type | Summary | Pre-conditions | Severity | Expected Result | Status |
 |:---|:---:|:---|:---|:---:|:---|:---:|
-| **15** | **Pos** | Verify items filtering within valid price range | Catalog page opened | **Major** | Only items within range displayed | ✅ PASSED |
-| **16** | **Neg** | Check price boundary validation for out of range values | Price inputs active | **Major** | System rejects values outside limits | ❌ FAILED |
-| **17** | **Neg** | Check system response to ultra-low price range | Price inputs active | **Medium** | Error: "Min price is 10 ₽" | ❌ FAILED |
+| **15** | **Pos** | Verify items filtering within valid price range (10.00/10000.00) | Catalog page opened | **Major** | Only items within range displayed | ✅ PASSED |
+| **16** | **Neg** | Check price boundary validation for not valid values (9.99/10000.01) | Price inputs active | **Major** | System rejects values outside limits | ❌ FAILED |
+| **17** | **Neg** | Check system response to 0 input | Price inputs active | **Medium** | Error: "Min price is 10.00" | ❌ FAILED |
 
 ### 5. Shopping Cart & Payment
 
