@@ -15,7 +15,7 @@ This registry contains all defects identified during testing. Each report includ
 3. Check the phone prefix value in the mobile number field.
 *   **Actual Result:** Prefix remains `+7`.
 *   **Expected Result:** Prefix automatically changes to `+375`
-*   **Visual Proof:** [📸 View Screenshot](../../assets/screenshots/chrome_Q8lXqAS0ix.png)
+*   **Visual Proof:** [📸 View Screenshot](https://github.com/AlenaPetryk/joom-ecommerce-testing/blob/bug-report-storage/chrome_Q8lXqAS0ix.png?raw=true)
 
 ---
 
