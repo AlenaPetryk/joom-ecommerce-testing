@@ -86,7 +86,7 @@ This registry contains all defects identified during testing. Each report includ
 2. Click "Apply"
 *   **Actual Result:** Filter is accepted, showing "0 products"
 *   **Expected Result:** A notification "Minimum price is 10 ₽" appears
-*   **Visual Proof:** [📸 View Screenshot](../../assets/screenshots/chrome_5hFNplzz4d.png)
+*   **Visual Proof:** [📸 View Screenshot](https://github.com/AlenaPetryk/joom-ecommerce-testing/blob/bug-report-storage/chrome_5hFNplzz4d.png?raw=true)
 
 ---
 
