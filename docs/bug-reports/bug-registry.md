@@ -117,5 +117,3 @@ This registry contains all defects identified during testing. Each report includ
 
 ---
 
-.
-*   **Visual Proof:** [📸 View Screenshot](../../assets/screenshots/bug08.png)
