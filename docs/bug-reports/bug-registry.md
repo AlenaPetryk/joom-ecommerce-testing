@@ -72,7 +72,7 @@ This registry contains all defects identified during testing. Each report includ
 3. Apply the filter
 *   **Actual Result:** Filter is applied with incorrect values
 *   **Expected Result:** System automatically rounds/corrects values to allowed limits (10.00 and 10000.00)
-*   **Visual Proof:** [📸 View Screenshot](../../assets/screenshots/chrome_zBhNd2N6q4.png)
+*   **Visual Proof:** [📸 View Screenshot](https://github.com/AlenaPetryk/joom-ecommerce-testing/blob/bug-report-storage/chrome_zBhNd2N6q4.png)
 
 ---
 
