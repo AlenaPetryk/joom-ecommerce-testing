@@ -57,7 +57,7 @@ This registry contains all defects identified during testing. Each report includ
 2. Select any category and apply any filter
 *   **Actual Result:** Product list does not update; API error 400 is logged in the developer console
 *   **Expected Result:** Product list is successfully filtered and updated in the UI
-*   **Visual Proof:** [📸 View Screenshot](../../assets/screenshots/chrome_gNWZfV2Gtr.png)
+*   **Visual Proof:** [📸 View Screenshot](https://github.com/AlenaPetryk/joom-ecommerce-testing/blob/bug-report-storage/chrome_gNWZfV2Gtr.png)
 
 ---
 
