@@ -43,7 +43,7 @@ This registry contains all defects identified during testing. Each report includ
 2. Press Enter or click the Search icon
 *   **Actual Result:** Page reloads, showing empty results without any warning
 *   **Expected Result:** A validation hint "Please enter a keyword" appears
-*   **Visual Proof:** [📸 View Screenshot](https://github.com/AlenaPetryk/joom-ecommerce-testing/commit/cb1512f118916dee20c671a729d0caaa60e03d10)
+*   **Visual Proof:** [📸 View Screenshot](https://raw.githubusercontent.com/AlenaPetryk/joom-ecommerce-testing/refs/heads/bug-report-storage/3tcfcDWe8a.png)
 
 ---
 
