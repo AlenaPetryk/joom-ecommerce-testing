@@ -113,7 +113,7 @@ This registry contains all defects identified during testing. Each report includ
 2. Observe the position of category buttons while the main banner is loading
 *   **Actual Result:** Elements "jump" down by 200px after the banner image appears
 *   **Expected Result:** Space for the banner is reserved (skeleton/placeholder), preventing layout shift
-*   **Visual Proof:** [📸 View Screenshot](../../assets/screenshots/chrome_OstWxYT2m0.png)
+*   **Visual Proof:** [📸 View Screenshot](https://github.com/AlenaPetryk/joom-ecommerce-testing/blob/bug-report-storage/chrome_OstWxYT2m0.png)
 
 ---
 
