@@ -29,7 +29,7 @@ This registry contains all defects identified during testing. Each report includ
 2. Click the "Save" button
 *   **Actual Result:** Text is saved (truncated by the system); no error notification is displayed
 *   **Expected Result:** A "Maximum characters" message is displayed, and the Save button is disabled
-*   **Visual Proof:** [📸 View Screenshot](https://github.com/AlenaPetryk/joom-ecommerce-testing/blob/bug-report-storage/explorer_LSbmpjSZNq.png?raw=true)
+*   **Visual Proof:** [📸 View Screenshot](https://raw.githubusercontent.com/AlenaPetryk/joom-ecommerce-testing/refs/heads/bug-report-storage/explorer_LSbmpjSZNq.png)
 
 ---
 
