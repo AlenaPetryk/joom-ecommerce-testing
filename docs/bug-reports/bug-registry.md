@@ -85,7 +85,7 @@ This registry contains all defects identified during testing. Each report includ
 1. Set minimum price to 0 and maximum to 1 (**EP**)
 2. Click "Apply"
 *   **Actual Result:** Filter is accepted, showing "0 products"
-*   **Expected Result:** A notification "Minimum price is 10 ₽" appears
+*   **Expected Result:** A notification "Minimum price is 10" appears
 *   **Visual Proof:** [📸 View Screenshot](https://raw.githubusercontent.com/AlenaPetryk/joom-ecommerce-testing/refs/heads/bug-report-storage/chrome_5hFNplzz4d.png)
 
 ---
@@ -113,7 +113,7 @@ This registry contains all defects identified during testing. Each report includ
 2. Observe the position of category buttons while the main banner is loading
 *   **Actual Result:** Elements "jump" down by 200px after the banner image appears
 *   **Expected Result:** Space for the banner is reserved (skeleton/placeholder), preventing layout shift
-*   **Visual Proof:** [📸 View Screenshot](https://github.com/AlenaPetryk/joom-ecommerce-testing/blob/bug-report-storage/chrome_OstWxYT2m0.png?raw=true)
+*   **Visual Proof:** [📸 View Screenshot](https://raw.githubusercontent.com/AlenaPetryk/joom-ecommerce-testing/refs/heads/bug-report-storage/chrome_OstWxYT2m0.png)
 
 ---
 
