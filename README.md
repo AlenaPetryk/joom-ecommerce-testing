@@ -24,15 +24,14 @@ I have organized the testing artifacts into a clear structure:
 *   **Boundary Testing:** Discovered boundary bypass bugs in price filters through rigorous BVA analysis.
 
 ## 📁 Repository Structure
+
 ```text
 ├── docs/
-│   ├── test-cases/      # Execution reports and test suites
-│   ├── checklists/      # Checklists
-│   ├── bug-reports/     # Detailed bug registry
-│   └── test-design/     # EP, BVA, Decision Tables, and State Transition analysis
-├── assets/
-│   └── screenshots/     # Visual evidence for bug reports
-└── README.md            # Project overview
+│   ├── test-design/      # EP, BVA, Decision Tables, and State Transition analysis
+│   ├── test-cases/       # Manual test suites and execution reports
+│   ├── checklists/       # High-level functional and UI checklists
+│   └── bug-reports/      # Detailed bug registry with links to evidence
+└── README.md             # Project overview and testing strategy
 ```
 
 ---
