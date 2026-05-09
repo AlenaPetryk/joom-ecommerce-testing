@@ -99,7 +99,7 @@ This registry contains all defects identified during testing. Each report includ
 1. Scroll the page down by 500+ pixels
 *   **Actual Result:** Header disappears from the viewport
 *   **Expected Result:** Header remains fixed (sticky) at the top of the screen
-*   **Visual Proof:** [📸 View Screenshot](https://github.com/AlenaPetryk/joom-ecommerce-testing/blob/bug-report-storage/lA5Ys263Vy.png)
+*   **Visual Proof:** [📸 View Screenshot](https://github.com/AlenaPetryk/joom-ecommerce-testing/blob/bug-report-storage/lA5Ys263Vy.png?raw=true)
 
 ---
 
