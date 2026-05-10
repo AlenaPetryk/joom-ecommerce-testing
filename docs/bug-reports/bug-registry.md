@@ -7,6 +7,7 @@ This registry contains all defects identified during testing. Each report includ
 ### BUG-01: Phone prefix not updating for Belarus
 *   **ID:** BUG-01
 *   **Summary:** Phone prefix does not update in the input field when "Belarus" is selected in the Country Selector
+*   **Severity:** Major
 *   **Priority:** High
 *   **Pre-conditions:** Registration page is open; default region is Russia (+7)
 *   **Steps to reproduce:**
@@ -22,6 +23,7 @@ This registry contains all defects identified during testing. Each report includ
 ### BUG-02: Missing char limit warning in Profile Bio
 *   **ID:** BUG-02
 *   **Summary:** Absence of a warning message when exceeding the 2000-character limit in the "About Me" field
+*   **Severity:** Minor
 *   **Priority:** Medium
 *   **Pre-conditions:** User is authorized; Profile Edit screen is open
 *   **Steps to reproduce:**
@@ -36,6 +38,7 @@ This registry contains all defects identified during testing. Each report includ
 ### BUG-03: Empty search query validation failure
 *   **ID:** BUG-03
 *   **Summary:** Lack of validation and hints for search queries consisting only of spaces
+*   **Severity:** Trivial
 *   **Priority:** Low
 *   **Pre-conditions:** Main page is open
 *   **Steps to reproduce:**
@@ -50,6 +53,7 @@ This registry contains all defects identified during testing. Each report includ
 ### BUG-04: Category filter API error (iPhone SE)
 *   **ID:** BUG-04
 *   **Summary:** 400 Bad Request error when applying category filters in mobile emulation
+*   **Severity:** Critical
 *   **Priority:** High
 *   **Pre-conditions:** Chrome browser; Device Mode (iPhone SE) activated
 *   **Steps to reproduce:**
@@ -64,6 +68,7 @@ This registry contains all defects identified during testing. Each report includ
 ### BUG-5: Boundary price values bypass
 *   **ID:** BUG-5
 *   **Summary:** Ability to enter price values outside business-defined boundaries (9.99 and 10000.01)
+*   **Severity:** Major
 *   **Priority:** Medium
 *   **Pre-conditions:** "Price range" filter is open
 *   **Steps to reproduce:**
@@ -79,7 +84,8 @@ This registry contains all defects identified during testing. Each report includ
 ### BUG-6: Invalid ultra-low price range (0-1 ₽)
 *   **ID:** BUG-6
 *   **Summary:** System allows setting a price range from 0 to 1 Ruble without a warning
-*   **Priority:** Low
+*   **Severity:** Major
+*   **Priority:** Medium
 *   **Pre-conditions:** Catalog is open; price filter is available
 *   **Steps to reproduce:**
 1. Set minimum price to 0 and maximum to 1 (**EP**)
@@ -93,6 +99,7 @@ This registry contains all defects identified during testing. Each report includ
 ### BUG-7: Non-sticky Header on scroll (Desktop)
 *   **ID:** BUG-7
 *   **Summary:** Site header is not fixed when scrolling down the page
+*   **Severity:** Minor
 *   **Priority:** Medium
 *   **Pre-conditions:** Catalog page with many products
 *   **Steps to reproduce:**
@@ -106,6 +113,7 @@ This registry contains all defects identified during testing. Each report includ
 ### BUG-8: Visual Layout Shift on load (iPhone SE)
 *   **ID:** BUG-8
 *   **Summary:** Significant UI element shift during banner loading in the mobile version
+*   **Severity:** Minor
 *   **Priority:** Medium
 *   **Pre-conditions:** Chrome DevTools (iPhone SE); Network throttling: Fast 3G
 *   **Steps to reproduce:**
