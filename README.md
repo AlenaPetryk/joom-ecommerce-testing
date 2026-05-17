@@ -1,7 +1,7 @@
 # QA Portfolio: E-commerce Testing Project (Joom Web App)
 
 ## 📌 Project Overview
-This repository contains a comprehensive testing project for an e-commerce platform. The goal was to perform functional, UI/UX, and business logic testing using professional QA methodologies and tools.
+This repository contains a comprehensive testing project for an e-commerce platform. The goal was to perform critical path testing focusing on user registration, product search, cart functionality, and the chekout/payment pipeline. I executed functional, UI/UX, and business logic testing using professional QA methodologies and tools.
 
 ## 🛠 Tools & Technologies
 *   **Testing Tool:** Chrome DevTools (Elements, Console, Network, Device Mode)
