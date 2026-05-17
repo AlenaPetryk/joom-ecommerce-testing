@@ -46,7 +46,7 @@
 | **15** | **Pos** | Verify items filtering within valid price range (10.00/10000.00) | Catalog page opened | **Major** | Only items within range displayed | ✅ PASSED |
 | **16** | **Neg** | Check price boundary validation for not valid values (9.99/10000.01) | Price inputs active | **Major** | System rejects values outside limits | ❌ FAILED | **Bug-05**
 | **17** | **Neg** | Check system response to 0 input | Price inputs active | **Medium** | Error: "Min price is 10.00" | ❌ FAILED | **Bug-06**|
-| **18** | Neg | Validate system response to special characters in price | Price inputs active | Low | Input is ignored or blocked | ✅ PASSED |
+| **18** | **Neg** | Validate system response to special characters in price | Price inputs active | Low | Input is ignored or blocked | ✅ PASSED |
 
 ### 5. Shopping Cart & Payment
 
